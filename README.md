@@ -14,7 +14,7 @@ pip install requests beautifulsoup4
 ## Verwendung
 
 ```bash
-python pdf_downloader.py <URL> [Optionen]
+python pdfgrabber.py <URL> [Optionen]
 ```
 
 Ohne Optionen lädt das Skript alle PDFs, die direkt auf der angegebenen Seite verlinkt sind, in den Ordner `pdf_downloads/`.
@@ -34,13 +34,13 @@ Ohne Optionen lädt das Skript alle PDFs, die direkt auf der angegebenen Seite v
 
 ```bash
 # Alle PDFs einer Seite herunterladen
-python pdf_downloader.py https://example.com/materialien
+python pdfgrabber.py https://example.com/materialien
 
 # Eine Ebene tiefer suchen und in den Ordner "skripte" speichern
-python pdf_downloader.py https://example.com -t 1 -o skripte
+python pdfgrabber.py https://example.com -t 1 -o skripte
 
 # Nur Arbeitsblätter, vorher anzeigen lassen
-python pdf_downloader.py https://example.com --filter arbeitsblatt --nur-auflisten
+python pdfgrabber.py https://example.com --filter arbeitsblatt --nur-auflisten
 ```
 
 ## So funktioniert's
