@@ -59,3 +59,7 @@ python pdfgrabber.py https://example.com --filter arbeitsblatt --nur-auflisten
 ## Hinweis
 
 Bitte nur Dateien herunterladen, die du auch nutzen darfst, und die Nutzungsbedingungen der Webseite beachten. Bei vielen Ebenen (`-t 2` oder mehr) kann das Skript sehr viele Seiten abrufen, also die Pause nicht zu klein wählen.
+
+---
+Unter GPL-3.0-Lizenz
+Die Software wird so angeboten, wie sie ist.
